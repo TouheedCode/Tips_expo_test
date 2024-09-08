@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    background-image:url(./tech.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    color: #f0f0f0;
+    line-height: 1.6;
+    
+}
+
+header {
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-bottom: 3px solid #29a19c;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.college-name {
+    font-size: 2.5rem;
+    color: #29a19c;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #29a19c;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.5rem;
+}
+
+footer {
+    opacity: 70%;
+    text-align: center;
+    padding: 3px;
+    background-color: #1f1f1f;
+    border-top: 2px solid #29a19c;
+    
+    width: 100%;
+    bottom: 0;
+}
+.footerimg{
+    width: 40px;
+    text-align: center;
+    
+}
+#footertext{
+    text-align: center;
+    
+}
+#aiimage{
+    height: 550px;
+    width: 1000px;
+}
+.aidiv{
+    text-align: center;
+    margin-top: 50px;
+}
+.blockchain{
+    text-align: center;
+    margin-top: 50px;
+}
+.metaverse{
+    text-align: center;
+    margin-top: 50px;
+}
+.powerbi{
+    text-align: center;
+    margin-top: 50px;
+}
+.industry4{
+    text-align: center;
+    margin-top: 50px;
+}
+.web3{
+    text-align: center;
+    margin-top: 50px;
+}
